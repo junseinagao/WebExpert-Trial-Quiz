@@ -27,17 +27,17 @@ const feedback = document.getElementById("feedback");
 // choice1のonclickイベントの処理を書こう
 /* ==この行の下に記述== */
 choice1.onclick = function () {
-  feedback.textContent = "不正解";
+  feedback.textContent = "ブッブー!! GeekSalonは大学生限定のプログラミングスクールだよ!!";
 }
 
 // choice1と同じ様にchoice2のonclickイベントの処理を書こう
 /* ==この行の下に記述== */
-choice1.onclick = function () {
-  feedback.textContent = "正解";
+choice2.onclick = function () {
+  feedback.textContent = "正解!!GeekSalonはプログラミング初心者でも「楽しくて」「続けられる」「作品を一つ作り上げる」スクールなんだ!!";
 }
 
 //choice1と同じ様にchoice3のonclickイベントの処理を書こう
 /* ==この行の下に記述== */
-choice1.onclick = function () {
-  feedback.textContent = "不正解";
+choice3.onclick = function () {
+  feedback.textContent = "残念!! GeekSalonは全国にあるけど、沖縄と横浜には無いかな";
 }
